@@ -13,6 +13,7 @@ LANDING_PAGE = "home"
 LANDING_TITLE = "I love obsidian-zola! 💖"
 PYTHON_VERSION = "3.8"
 # (REQUIRED) Site repo URL
+SITE_URL = "https://garden.svaught.com"
 REPO_URL = "https://github.com/Svaught598/digital-garden"
 # (Optional) Site title in navbar
 SITE_TITLE = "Someone's Second 🧠"
