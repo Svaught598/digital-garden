@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "IDK, Games or something/PICO-8/PICO-8.md",
+            "file": "IDK, Games or something/PICO-8.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IDK, Games or something/PICO-8/PICO-8.md",
+                "file": "IDK, Games or something/PICO-8.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IDK, Games or something/PICO-8/PICO-8.md",
+                "file": "IDK, Games or something/PICO-8.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IDK, Games or something/PICO-8/PICO-8.md"
+                "file": "IDK, Games or something/PICO-8.md"
               }
             }
           }
@@ -131,11 +131,11 @@
   "active": "1ef33bc7cc67facf",
   "lastOpenFiles": [
     "Home.md",
-    "IDK, Games or something/PICO-8/PICO-8.md",
-    "IDK, Games or something/PICO-8/Collision Detection.md",
-    "IDK, Games or something/PICO-8/Paralax Scrolling.md",
-    "IDK, Games or something/PICO-8/Ray-Casting.md",
-    "IDK, Games or something/PICO-8/Upgrade Systems.md",
+    "IDK, Games or something/Ray-Casting.md",
+    "IDK, Games or something/Upgrade Systems.md",
+    "IDK, Games or something/Collision Detection.md",
+    "IDK, Games or something/PICO-8.md",
+    "IDK, Games or something/Paralax Scrolling.md",
     "pico-8.md",
     "Gaming/Unity.md",
     "Main Stuff I Guess.md"
