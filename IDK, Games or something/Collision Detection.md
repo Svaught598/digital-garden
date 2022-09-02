@@ -17,8 +17,7 @@ S1_y < S2_y + S2_{height} \\
 S1_y + S1_{height} > S2_y \\ 
 S1_x + S1_{width} > S2_x \\ \end{align}$$
 These equations are basically saying that for a collision to occur, one of the starting coordinates (x or y) of a sprite must be less than the starting coordinate + width of another. These can be rewritten to use subtraction as well, if someone so chooses, just subtract the added width or height from both sides of each inequality to get:
-$$
-\begin{align} S1_x - S2_{width} < S2_x \\ 
+$$\begin{align} S1_x - S2_{width} < S2_x \\ 
 S1_y - S2_{height} < S2_y \\ 
 S1_y > S2_y - S1_{height} \\ 
 S1_x > S2_x - S1_{width} \\ \end{align} $$
