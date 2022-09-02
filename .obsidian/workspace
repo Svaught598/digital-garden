@@ -130,12 +130,13 @@
   },
   "active": "017c86702cbfc472",
   "lastOpenFiles": [
-    "Home.md",
-    "IDK, Games or something/PICO-8 Game Development.md",
-    "IDK, Games or something/Collision Detection.md",
-    "IDK, Games or something/Ray-Casting.md",
-    "IDK, Games or something/Upgrade Systems.md",
     "IDK, Games or something/Paralax Scrolling.md",
+    "IDK, Games or something/Upgrade Systems.md",
+    "IDK, Games or something/PICO-8 Game Development.md",
+    "IDK, Games or something/Ray-Casting.md",
+    "Cheatsheets.md",
+    "IDK, Games or something/Collision Detection.md",
+    "Home.md",
     "pico-8.md",
     "Gaming/Unity.md",
     "Main Stuff I Guess.md"

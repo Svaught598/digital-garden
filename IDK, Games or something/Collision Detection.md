@@ -17,7 +17,8 @@ S1_y < S2_y + S2_{height} \\
 S1_y + S1_{height} > S2_y \\ 
 S1_x + S1_{width} > S2_x \\ \end{align}$$
 These equations are basically saying that for a collision to occur, one of the starting coordinates (x or y) of a sprite must be less than the starting coordinate + width of another. These can be rewritten to use subtraction as well, if someone so chooses, just subtract the added width or height from both sides of each inequality to get:
-$$ \begin{align} S1_x - S2_{width} < S2_x \\ 
+$$
+\begin{align} S1_x - S2_{width} < S2_x \\ 
 S1_y - S2_{height} < S2_y \\ 
 S1_y > S2_y - S1_{height} \\ 
 S1_x > S2_x - S1_{width} \\ \end{align} $$
@@ -50,6 +51,6 @@ This can be implemented by keeping track of $dx$ & $dy$ variables on each entity
 
 This collision detection method doesn't work for entities that are sufficiently small, fast, or both. Small/fast entities tend to tunnel through collision blocks when they have a $dx$ or $dy$ value greate enough that their "potential position" is on the other side of a collision block. If entities are moving that fast, you can check a subset of the potential positions along the way. So instead of checkout positions $(x,y)$ and $(x+dx,y)$ for instance, you would check positions:
 
-$(x,y), (x+1*dx/n,y), (x+2*dx/n,y)...(x+n*dx/n,y)$
+$$(x,y),(x+1\ast dx/n,y),(x+2\ast dx/n,y)...(x+n\ast dx/n,y)$$
 
 Where $n$ is sufficiently large (but not too large) to capture all intermediate tiles.
