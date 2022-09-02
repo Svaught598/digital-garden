@@ -1,4 +1,4 @@
-# Collision Detection
+
 Collision detection get's complicated pretty fast once you move past bounding boxes over sprites. Here are some complex scenarios just to get the brain juices flowing:
 
 - Colliding sprite with dynamically rendered content (not sprite).
@@ -12,23 +12,10 @@ PICO-8 treats sprites on the plane differently than you might expect:
 2. the sprite location is the top-left corner of the sprite.
 
 With this in mind, we can define normal bounding box collisions for sprites $S1$ and $S2$. If all of the following inequalities are true, we have a collision:
-$$
-\begin{align}  
-S1_x < S2_x + S2_{width} \\
-S1_y < S2_y + S2_{height} \\
-S1_y + S1_{height} > S2_y \\
-S1_x + S1_{width} > S2_x \\
-\end{align}
-$$
+$$\begin{align} S1_x < S2_x + S2_{width} \\ S1_y < S2_y + S2_{height} \\ S1_y + S1_{height} > S2_y \\ S1_x + S1_{width} > S2_x \\ \end{align}$$
 These equations are basically saying that for a collision to occur, one of the starting coordinates (x or y) of a sprite must be less than the starting coordinate + width of another. These can be rewritten to use subtraction as well, if someone so chooses, just subtract the added width or height from both sides of each inequality to get:
-$$
-\begin{align}  
-S1_x - S2_{width}  < S2_x \\
-S1_y - S2_{height} < S2_y \\
-S1_y > S2_y - S1_{height} \\
-S1_x > S2_x - S1_{width} \\
-\end{align}
-$$
+$$ \begin{align} S1_x - S2_{width} < S2_x \\ S1_y - S2_{height} < S2_y \\ S1_y > S2_y - S1_{height} \\ S1_x > S2_x - S1_{width} \\ \end{align} $$
+
 It doesn't really matter which set of equations you use, they both describe the conditions under which two bounding boxes collide. Using the first set, we can write a collision function in lua as:
 
 ```lua
@@ -55,6 +42,8 @@ This can be implemented by keeping track of $dx$ & $dy$ variables on each entity
 
 ## Small Objects Moving Fast
 
-This collision detection method doesn't work for entities that are sufficiently small, fast, or both. Small/fast entities tend to tunnel through collision blocks when they have a $dx$ or $dy$ value greate enough that their "potential position" is on the other side of a collision block. If entities are moving that fast, you can check a subset of the potential positions along the way. So instead of checkout positions $(x,y)$ and $(x+dx,y)$ for instance, you would check positions 
-$$(x,y), (x+1*dx/n,y), (x+2*dx/n,y)...(x+n*dx/n,y)$$
+This collision detection method doesn't work for entities that are sufficiently small, fast, or both. Small/fast entities tend to tunnel through collision blocks when they have a $dx$ or $dy$ value greate enough that their "potential position" is on the other side of a collision block. If entities are moving that fast, you can check a subset of the potential positions along the way. So instead of checkout positions $(x,y)$ and $(x+dx,y)$ for instance, you would check positions:
+
+$(x,y), (x+1*dx/n,y), (x+2*dx/n,y)...(x+n*dx/n,y)$
+
 Where $n$ is sufficiently large (but not too large) to capture all intermediate tiles.
