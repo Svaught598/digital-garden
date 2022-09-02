@@ -16,3 +16,4 @@ No promises, but you might find information about Math/Physics/Programming/Philo
 ## Stuff that is here
 
 - [[PICO-8 Game Development]] 
+- [[Cheatsheets]] for random shit
