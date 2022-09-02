@@ -15,4 +15,4 @@ No promises, but you might find information about Math/Physics/Programming/Philo
 
 ## Stuff that is here
 
-- [Personal Collection of Notes regarding PICO-8 GameDev](PICO-8/Index) 
+- [Personal Collection of Notes regarding PICO-8 GameDev](PICO-8.md) 
