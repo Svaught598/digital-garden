@@ -1,0 +1,2 @@
+- How hard would it be to write a basic MIDI keyboard for the browser? something like a piano roll with notes to turn on/off & export a track
+- 

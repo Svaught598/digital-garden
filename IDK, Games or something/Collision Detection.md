@@ -53,3 +53,8 @@ This collision detection method doesn't work for entities that are sufficiently 
 $$(x,y),(x+1\ast dx/n,y),(x+2\ast dx/n,y)...(x+n\ast dx/n,y)$$
 
 Where $n$ is sufficiently large (but not too large) to capture all intermediate tiles.
+
+## Collisions with pixels?
+
+
+## Collisions
