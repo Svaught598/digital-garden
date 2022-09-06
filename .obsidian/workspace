@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Slug Game.md",
+            "file": "Random Ideas.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Slug Game.md",
+                "file": "Random Ideas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Slug Game.md",
+                "file": "Random Ideas.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Slug Game.md"
+                "file": "Random Ideas.md"
               }
             }
           }
@@ -130,6 +130,7 @@
   },
   "active": "017c86702cbfc472",
   "lastOpenFiles": [
+    "Slug Game.md",
     "Random Ideas.md",
     "Cheatsheets.md",
     "JavaScript Stuff/Basic JS.md",
@@ -138,7 +139,6 @@
     "IDK, Games or something/Collision Detection.md",
     "IDK, Games or something/Paralax Scrolling.md",
     "IDK, Games or something/Upgrade Systems.md",
-    "IDK, Games or something/PICO-8 Game Development.md",
-    "IDK, Games or something/Ray-Casting.md"
+    "IDK, Games or something/PICO-8 Game Development.md"
   ]
 }

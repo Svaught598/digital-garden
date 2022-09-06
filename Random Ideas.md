@@ -1,2 +1,6 @@
 - How hard would it be to write a basic MIDI keyboard for the browser? something like a piano roll with notes to turn on/off & export a track
-- 
+- Investigate successful games to see how the core mechanics work on:
+	- implementation level, or how the code works
+	- interaction level, how the player interacts with them
+	- how the mechanics evolve and interact with other mechanics in the game
+	- how the mechanics support the core gameplay loop
