@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "How Celeste Works.md",
+            "file": "Home.md",
             "mode": "source",
             "source": false
           }
@@ -61,8 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "dd57aa8477757fd5",
@@ -78,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "How Celeste Works.md",
+                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "How Celeste Works.md",
+                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "How Celeste Works.md"
+                "file": "Home.md"
               }
             }
           }
@@ -131,15 +130,15 @@
   },
   "active": "017c86702cbfc472",
   "lastOpenFiles": [
+    "Random Ideas.md",
+    "Slug Game.md",
+    "Cool Web-Dev Stuff.md",
+    "Cool Web-Dev Stuff/Untitled.md",
+    "IDK, Games or something/How Celeste Works.md",
     "IDK, Games or something/PICO-8 Game Development.md",
     "IDK, Games or something/Paralax Scrolling.md",
     "IDK, Games or something/Collision Detection.md",
-    "Slug Game.md",
-    "Random Ideas.md",
     "Cheatsheets.md",
-    "JavaScript Stuff/Basic JS.md",
-    "Home.md",
-    "IDK, Games or something/Random Game Ideas.md",
-    "IDK, Games or something/Upgrade Systems.md"
+    "JavaScript Stuff/Basic JS.md"
   ]
 }

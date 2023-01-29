@@ -13,3 +13,6 @@ These are interesting areas of game development I want to learn more about. They
 ## Learning Resources
 - [Full game tutorials and other interesting content about PICO-8](https://www.youtube.com/c/LazyDevs)
 - [PICO-8 blog for beginners](https://gamedev.docrobs.co.uk/category/first_steps)
+
+## Techniques used in other games
+- [[How Celeste Works]]
